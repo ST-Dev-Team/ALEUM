@@ -1,2 +1,2 @@
-# Life-Gallery
-Life Gallery dev
+# ALEUM COMPANY
+ST-Dev-Team
