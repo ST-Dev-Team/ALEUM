@@ -449,7 +449,7 @@ p {
 # Hero
 --------------------------------------------------------------*/
 #hero {
-  background: url("../img/home-bg.jpg") repeat scroll center center/cover;
+  background: url("../img/artwork1_3.jpg") repeat scroll center center/cover;
   height: 100vh;
   width: 100%;
 }
@@ -464,7 +464,7 @@ p {
 }
 
 .hero-content h1 {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -472,13 +472,14 @@ p {
 }
 
 .hero-content p {
-  font-size: 13px;
+  font-size: 26px;
   letter-spacing: 3px;
   margin-top: 0;
   margin-bottom: 30px;
   text-transform: capitalize;
   color: #fff;
   font-weight: 500;
+  /*background-color:#1a1d20;*/
 }
 
 .hero-content .list-social li {
@@ -488,7 +489,8 @@ p {
 
 .hero-content .list-social li i {
   color: #fff;
-  font-size: 15px;
+  /*background-color: #1a1d20;*/
+  font-size: 20px;
 }
 
 /*--------------------------------------------------------------
@@ -560,11 +562,12 @@ p {
   height: auto;
   background: #f7f7f7;
   padding-top: 120px;
+  color:#1a1d20;
 }
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #b8a07e;
+  border: 20px solid #5b62f5;
 }
 
 #about .div-img-bg .about-img img {
@@ -578,8 +581,10 @@ p {
 }
 
 #about .about-descr .p-heading {
-  font-family: "Playfair Display", serif;
-  font-size: 28px;
+  /*font-family: "Playfair Display", serif;*/
+  color: #2c2d2d;
+  line-height: 150%;
+  font-size: 20px;
   text-align: left;
 }
 
@@ -681,6 +686,16 @@ p {
   margin-bottom: 30px;
 }
 
+#portfolio .portfolio-item {
+  margin-bottom: 30px;
+}
+
+.portfolio-container .img-fluid {
+  width: 370px;
+  height: 350px;
+  object-fit: cover;
+}
+
 #portfolio .portfolio-item .portfolio-info {
   opacity: 0;
   position: absolute;
@@ -739,6 +754,7 @@ p {
 
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
+  /*height: 350px;*/
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
@@ -822,8 +838,15 @@ p {
   position: relative;
 }
 
+.journal-info .img-responsive {
+  height: 320px;
+
+}
+
 .journal-block .journal-info img {
   max-width: 100%;
+  display: block;
+  margin: auto;
 }
 
 .journal-block .journal-info .journal-txt {
