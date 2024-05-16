@@ -9,6 +9,17 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #ffffff;
+    color: #898989;
+  }
+
+  .content {
+    background: #ffffff;
+    color: #898989;
+  }
+}
 body {
   background: #ffffff;
   color: #898989;
@@ -222,6 +233,8 @@ p {
     border: 0;
   }
 }
+
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
